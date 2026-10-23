@@ -1,17 +1,3 @@
-public class Student {
-    String emri;
-    int nota;
-}
-
-
-
-public class Student {
-    String emri;
-    int nota;
-    String email;
-}
-
-
 
 public class Student {
     String emri;
@@ -23,5 +9,8 @@ public class Student {
         System.out.println("Nota: " + nota);
         System.out.println("Email: " + email);
     }
-}
 
+    public boolean kaKaluar() {
+        return nota >= 5;
+    }
+}
