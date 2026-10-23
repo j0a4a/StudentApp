@@ -1,6 +1,13 @@
 public class Student {
     String emri;
     int nota;
+
+    public String rezultati() {
+        if (nota >= 5) {
+            return "Kalues";
+        }
+        return "Jo kalues";
+    }
 }
 
 
