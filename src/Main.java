@@ -3,8 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Student studenti = new Student();
 
-        System.out.println("Studenti u regjistrua");git add .
-
+        System.out.println("Studenti u regjistrua me sukses");
 
         studenti.emri = "Ana";
         studenti.nota = 8;
