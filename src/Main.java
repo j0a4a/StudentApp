@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Student studenti = new Student();
 
-        System.out.println("Studenti u regjistrua");git add .
+        System.out.println("Regjistrimi perfundoi");
 
 
         studenti.emri = "Ana";
